@@ -1,0 +1,17 @@
+{
+  "name": "npm-package-currency-converter",
+  "version": "1.0.0",
+  "description": "NPM package which converts one form of currency to another",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Allan Joston Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "@everapi/currencyapi-js": "^1.0.6"
+  }
+}
