@@ -19,3 +19,5 @@ const currencyConverter = async (fromCurrency, toCurrency, units) => {
         throw new Error('Error fetching currency conversion data');
     }
 }
+
+export default currencyConverter
